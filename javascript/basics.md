@@ -4,7 +4,7 @@
 - Performing operations on `undefined` variables result in NaN
 - Concatenate `undefined` variable will result in `"undefined"` a `string`
 - Variables initialized without the `var` keyword are available in `global` scope
-
+- Use bracket notation when accessing object has space `obj1["First Name];`
 
 # Anti-patterns
 
