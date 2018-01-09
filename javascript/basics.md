@@ -13,6 +13,8 @@ var Person = function() {
   this.first_name =  "John";
   this.last_name = "Doe";
 };
+
+var somePerson = new Persion();
 ```
 
 # Anti-patterns
