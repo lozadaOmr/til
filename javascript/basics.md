@@ -6,6 +6,15 @@
 - Variables initialized without the `var` keyword are available in `global` scope
 - Use bracket notation when accessing object has space `obj1["First Name];`
 
+## JavaScript Constructors
+
+```
+var Person = function() {
+  this.first_name =  "John";
+  this.last_name = "Doe";
+};
+```
+
 # Anti-patterns
 
 ## if / else
