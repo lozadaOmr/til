@@ -8,6 +8,7 @@
 
 ## JavaScript Constructors
 
+Basic Syntax
 ```
 var Person = function() {
   this.first_name =  "John";
@@ -17,6 +18,28 @@ var Person = function() {
 var somePerson = new Persion();
 ```
 
+Public Method and Private Properties
+```
+var Person = function() {
+  // private property
+  var prop = "private";
+  
+  // public method
+  this.stuff = function() {
+    return prop;
+  };
+};
+```
+
+
+# Arrays
+## map
+
+```
+var newArray = oldArray.map(function(val) {
+  return val + 1;
+});
+```
 # Anti-patterns
 
 ## if / else
