@@ -5,7 +5,7 @@
 - Concatenate `undefined` variable will result in `"undefined"` a `string`
 - Variables initialized without the `var` keyword are available in `global` scope
 - Use bracket notation when accessing object has space `obj1["First Name];`
-- Having typo error on methods result in undefined (no error raised)
+- Having typo error on property result in undefined (no error raised)
   ```
   console.log(str.lenght);
   > undefined
