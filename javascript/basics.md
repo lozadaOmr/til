@@ -10,6 +10,8 @@
   console.log(str.lenght);
   > undefined
   ```
+- Usage of `arguments`, I'll think of it as Python's `*args`
+
 
 ## JavaScript Constructors
 
