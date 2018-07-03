@@ -69,3 +69,10 @@ function equal(x,y) {
   return x === y;
 }
 ```
+
+# Strings
+
+## Template Strings
+
+    var name = "Omar";
+    `Hey ${name}!`;
